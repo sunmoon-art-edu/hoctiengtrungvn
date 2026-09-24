@@ -1,0 +1,4 @@
+/* Màu riêng cho app HSK: đỏ son + vàng (cùng tông web SunMoon) · YCT dùng xanh ngọc + vàng nghệ */
+:root{--sun:#C8453A;--sun-2:#A2342B;--sun-soft:#F9E3DF;--on-sun:#FFFFFF;--moon:#B7862B;--moon-2:#94691C;--moon-soft:#F7EDD8;--on-moon:#FFFFFF;--bad:#8E4A9E;--bad-2:#713A7E;--bad-soft:#F1E4F4;--bg:#FAF6EF;--line:#EADFD0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--sun:#E0695D;--sun-2:#B84B40;--sun-soft:#40211E;--on-sun:#1A0E0C;--moon:#E0B354;--moon-2:#B98E33;--moon-soft:#3B2F17;--bad:#C58BD3;--bad-2:#9C64AA;--bad-soft:#3A2440;--bg:#1C1816;--surface:#28221F;--line:#3D3430}}
+:root[data-theme="dark"]{--sun:#E0695D;--sun-2:#B84B40;--sun-soft:#40211E;--on-sun:#1A0E0C;--moon:#E0B354;--moon-2:#B98E33;--moon-soft:#3B2F17;--bad:#C58BD3;--bad-2:#9C64AA;--bad-soft:#3A2440;--bg:#1C1816;--surface:#28221F;--line:#3D3430}
